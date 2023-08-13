@@ -5,12 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/i/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/i/home/HomePageSidebar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/home/HomePageSidebar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/i/horoscopePage/HoroscopePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/horoscopePage/HoroscopePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/i/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/login/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/i/searchPage/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/searchPage/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrolls/Scrolls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrolls/Scrolls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waiters/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/waiters/Waiters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/homePage/HomePageElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/homePage/HomePageElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/homePage/HoroscopePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/homePage/HoroscopePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/homePage/SearchInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/homePage/SearchInputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/loginPage/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginPage/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngAll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngAll.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,12 +47,112 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/anastasiia/A-Level/Module/src/test/java&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.HoroscopePageTest">
+    <configuration name="HomePageElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.homePage" />
+      <option name="MAIN_CLASS_NAME" value="test.homePage.HomePageElementsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoroscopePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.homePage" />
+      <option name="MAIN_CLASS_NAME" value="test.homePage.HoroscopePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoroscopePageTest.chooseGeminiTitleZodiac" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.homePage" />
+      <option name="MAIN_CLASS_NAME" value="test.homePage.HoroscopePageTest" />
+      <option name="METHOD_NAME" value="chooseGeminiTitleZodiac" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.closeLoginForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.loginPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.loginPage" />
+      <option name="MAIN_CLASS_NAME" value="test.loginPage.LoginPageTest" />
+      <option name="METHOD_NAME" value="closeLoginForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.getToForgetPasswordPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.loginPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.loginPage" />
+      <option name="MAIN_CLASS_NAME" value="test.loginPage.LoginPageTest" />
+      <option name="METHOD_NAME" value="getToForgetPasswordPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HoroscopePageTest" />
+        <item itemvalue="TestNG.HomePageElementsTest" />
+        <item itemvalue="TestNG.HoroscopePageTest.chooseGeminiTitleZodiac" />
+        <item itemvalue="TestNG.LoginPageTest.closeLoginForm" />
+        <item itemvalue="TestNG.LoginPageTest.getToForgetPasswordPage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

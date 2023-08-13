@@ -1,10 +1,13 @@
-package i.home;
+package i.login;
 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebElement;
 import pages.BasePage;
+
+import static constants.Constant.Credentials.PASSWORD;
+import static constants.Constant.Credentials.USERNAME;
 
 public class LoginPage extends BasePage {
 
@@ -12,6 +15,7 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
+    private By loginPopUp = By.cssSelector(".popup.login");
     private By usernameField = By.xpath("//*[@class = 'width_100' and @name = 'login']");
     private By passwordField = By.xpath("//*[@class = 'width_100' and @name = 'pass']");
     private By signInButton = By.xpath("//form[@name = 'lFloat']//input[@value = 'Увійти']");
@@ -21,15 +25,65 @@ public class LoginPage extends BasePage {
     private By googleInIcon = By.cssSelector(".googleplus_20");
     private By remindPassword = By.xpath("//a[text() = 'нагадати пароль']");
     private By toRegistrationForm = By.xpath("//a[text() = 'зареєструватись']");
+    private By closeLoginPopUpButton = By.xpath("//div[contains(@class, 'popup') and contains(@class, 'login')]//div[contains(@class, 'content') and contains(@class, 'clear')]//i[contains(@class, 'close_button')]");
+    private By loginUser = By.xpath("//*[text()='Привіт,'] | //*[text()='Анастасія']");
+    private By errorCredentialsMessage = By.xpath("//div[text() = 'Невірний логін або пароль']");
 
 
-
-    public void setUsername(String username) {
-        driver.findElement(usernameField).sendKeys(username);
+    public WebElement getLoginPopUp () {
+        return driver.findElement(loginPopUp);
     }
 
-    public void setPassword(String password) {
-        driver.findElement(passwordField).sendKeys(password);
+    public WebElement getUsername () {
+        return driver.findElement(usernameField);
+    }
+
+    public WebElement getPassword () {
+        return driver.findElement(passwordField);
+    }
+
+    public void setUsername() {
+        getUsername().sendKeys(USERNAME);
+    }
+
+    public void setPassword() {
+        getPassword().sendKeys(PASSWORD);
+    }
+
+    public void clickSignInButton () {
+        driver.findElement(signInButton).click();
+    }
+
+    public void clickTwitterIcon () {
+        driver.findElement(twitterIcon).click();
+    }
+
+    public void clickFacebookIcon () {
+        driver.findElement(facebookIcon).click();
+    }
+
+    public void clickGoogleInIcon() {
+        driver.findElement(googleInIcon).click();
+    }
+
+    public void clickToRegistrationForm() {
+        driver.findElement(toRegistrationForm).click();
+    }
+
+    public void clickToRemindPassword() {
+        driver.findElement(remindPassword).click();
+    }
+
+    public void clickCloseLoginPopUpButton() {
+        driver.findElement(closeLoginPopUpButton).click();
+    }
+
+    public WebElement getLoginUser () {
+        return driver.findElement(loginUser);
+    }
+
+    public boolean isErrorMessageDisplayed() {
+        return driver.findElement(errorCredentialsMessage).isDisplayed();
     }
 
     public boolean isRememberUsernameChecked() {
