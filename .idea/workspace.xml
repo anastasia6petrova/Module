@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors">
+    <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="Changed Files&#10;&#10;refactor packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,14 @@
     &quot;last_directory_selection&quot;: &quot;/Users/anastasiia/A-Level/Module/src/test/java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG./Users/anastasiia/A-Level/Module/testngAll.xml">
     <configuration name="LoginPageTest.getToForgetPasswordPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Module" />
@@ -151,13 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692008221209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed Files&#10;&#10;refactor packages">
+      <created>1692008956466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692008956466</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed Files" />
     <MESSAGE value="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors" />
+    <MESSAGE value="Changed Files&#10;&#10;refactor packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Files&#10;&#10;refactor packages" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module$HomePageElementsTest.ic" NAME="HomePageElementsTest Coverage Results" MODIFIED="1691956922702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

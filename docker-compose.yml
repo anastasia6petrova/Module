@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  selenium-hub:
+    image: selenium/hub:latest
+    ports:
+      - "4444:4444"
+  chrome-node:
+    image: selenium/node-chrome:latest
+    shm_size: 4gb
+    volumes:
+      - /dev/shm:/dev/shm
+    deploy:
+      resources:
+        limits:
+          cpus: "0.8"
+        reservations:
+          memory: 8G
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+  jenkins:
+    image: jenkins/jenkins:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - jenkins_data:/var/jenkins_home
+    depends_on:
+      - selenium-hub
+
+volumes:
+  jenkins_data:
+  allure_reports:
