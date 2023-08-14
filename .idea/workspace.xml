@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="Changed Files">
+    <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/i/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/home/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/i/home/HomePageSidebar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/home/HomePageSidebar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/i/horoscopePage/HoroscopePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/horoscopePage/HoroscopePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/i/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/login/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/i/searchPage/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/searchPage/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrolls/Scrolls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrolls/Scrolls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/waiters/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/waiters/Waiters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/homePage/HomePageElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/homePage/HomePageElementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/homePage/HoroscopePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/homePage/HoroscopePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/homePage/SearchInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/homePage/SearchInputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/loginPage/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginPage/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngAll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngAll.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,12 +144,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691945304432</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors">
+      <created>1692008221209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692008221209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Files" />
+    <MESSAGE value="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Files&#10;&#10;driver&#10;delete CommonActions.java&#10;&#10;Change constructors" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Module$HomePageElementsTest.ic" NAME="HomePageElementsTest Coverage Results" MODIFIED="1691956922702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

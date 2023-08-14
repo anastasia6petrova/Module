@@ -1,9 +1,8 @@
-package i.home;
+package homePage;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.BasePage;
+import base.BasePage;
 
 public class HomePage extends BasePage {
 

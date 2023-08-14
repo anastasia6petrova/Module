@@ -3,7 +3,7 @@ package scrolls;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import pages.BasePage;
+import base.BasePage;
 
 public class Scrolls {
     protected WebDriver driver = BasePage.getDriver();

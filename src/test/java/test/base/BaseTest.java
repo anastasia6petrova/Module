@@ -1,13 +1,13 @@
 package test.base;
 
-import i.home.HomePage;
-import i.home.HomePageSidebar;
-import i.horoscopePage.HoroscopePage;
-import i.login.LoginPage;
-import i.searchPage.SearchPage;
+import homePage.HomePage;
+import homePage.HomePageSidebar;
+import horoscopePage.HoroscopePage;
+import loginPage.LoginPage;
+import searchPage.SearchPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
-import pages.BasePage;
+import base.BasePage;
 import scrolls.Scrolls;
 import waiters.Waiters;
 

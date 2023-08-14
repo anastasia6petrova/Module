@@ -1,10 +1,9 @@
-package i.login;
+package loginPage;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pages.BasePage;
+import base.BasePage;
 
 import static constants.Constant.Credentials.PASSWORD;
 import static constants.Constant.Credentials.USERNAME;

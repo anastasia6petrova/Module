@@ -3,7 +3,7 @@ package test.homePage;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.BasePage;
+import base.BasePage;
 import test.base.BaseTest;
 
 import java.time.Duration;
