@@ -1,13 +1,12 @@
 package test.base;
 
-import common.CommonActions;
 import i.home.HomePage;
 import i.home.HomePageSidebar;
 import i.horoscopePage.HoroscopePage;
 import i.login.LoginPage;
 import i.searchPage.SearchPage;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.*;
 import pages.BasePage;
 import scrolls.Scrolls;
 import waiters.Waiters;
@@ -15,16 +14,22 @@ import waiters.Waiters;
 
 public class BaseTest {
 
-    protected WebDriver driver = CommonActions.getDriver();
-    protected BasePage basePage = new BasePage(driver);
-    protected HomePage homePage = new HomePage(driver);
-    protected HomePageSidebar homePageSidebar = new HomePageSidebar(driver);
-    protected LoginPage loginPage = new LoginPage(driver);
-    protected SearchPage searchPage = new SearchPage(driver);
-    protected HoroscopePage horoscopePage = new HoroscopePage(driver);
-    protected Waiters waiters = new Waiters(driver);
-    protected Scrolls scrolls = new Scrolls(driver);
+    protected WebDriver driver = BasePage.getDriver();
+    protected BasePage basePage = new BasePage();
+    protected HomePage homePage = new HomePage();
+    protected HomePageSidebar homePageSidebar = new HomePageSidebar();
+    protected LoginPage loginPage = new LoginPage();
+    protected SearchPage searchPage = new SearchPage();
+    protected HoroscopePage horoscopePage = new HoroscopePage();
+    protected Waiters waiters = new Waiters();
+    protected Scrolls scrolls = new Scrolls();
 
 
+    @AfterSuite (alwaysRun = true)
+
+    public void driverQuit() {
+            driver.quit();
+
+    }
 
 }

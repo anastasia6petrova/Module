@@ -7,8 +7,8 @@ import pages.BasePage;
 
 public class HomePageSidebar extends BasePage {
 
-    public HomePageSidebar (WebDriver driver) {
-            super(driver);
+    public HomePageSidebar () {
+            super();
         }
 
 

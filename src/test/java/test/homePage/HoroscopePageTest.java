@@ -1,9 +1,9 @@
 package test.homePage;
 
-import common.CommonActions;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.BasePage;
 import test.base.BaseTest;
 
 import java.time.Duration;
@@ -16,7 +16,7 @@ public class HoroscopePageTest extends BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        driver = CommonActions.getDriver();
+        driver = BasePage.getDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT)).pageLoadTimeout(Duration.ofSeconds(IMPLICIT_WAIT));
         basePage.openUrl(IUA_HOROSCOPE_PAGE);
@@ -38,12 +38,6 @@ public class HoroscopePageTest extends BaseTest {
         waiters.waitElementIsVisible(horoscopePage.getBusinessTabMarked());
 
         assertTrue(horoscopePage.getBusinessTabMarked().isDisplayed(), "Switch to tab Business has not been made");
-
-    }
-
-    @AfterMethod
-    public void driverQuit() {
-        driver.close();
 
     }
 

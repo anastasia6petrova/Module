@@ -1,9 +1,9 @@
 package test.loginPage;
 
-import common.CommonActions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.BasePage;
 import test.base.BaseTest;
 
 import java.time.Duration;
@@ -18,7 +18,7 @@ public class LoginPageTest extends BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        driver = CommonActions.getDriver();
+        driver = BasePage.getDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT)).pageLoadTimeout(Duration.ofSeconds(IMPLICIT_WAIT));
         basePage.openUrl(IUA_HOME_PAGE);
@@ -109,20 +109,6 @@ public class LoginPageTest extends BaseTest {
         assertFalse(loginPage.getLoginPopUp().isDisplayed(), "Window is not closed");
 
     }
-
-    @AfterMethod
-    public void driverQuit() {
-        driver.quit();
-
-    }
-
-
-
-
-
-
-
-
 
 
 }

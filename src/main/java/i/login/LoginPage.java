@@ -11,8 +11,8 @@ import static constants.Constant.Credentials.USERNAME;
 
 public class LoginPage extends BasePage {
 
-    public LoginPage(WebDriver driver) {
-        super(driver);
+    public LoginPage() {
+        super();
     }
 
     private By loginPopUp = By.cssSelector(".popup.login");

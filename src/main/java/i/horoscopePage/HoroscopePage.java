@@ -8,8 +8,8 @@ import pages.BasePage;
 public class HoroscopePage extends BasePage {
 
 
-    public HoroscopePage(WebDriver driver) {
-        super(driver);
+    public HoroscopePage() {
+        super();
     }
 
 

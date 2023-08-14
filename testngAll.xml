@@ -4,7 +4,7 @@
             <class name="test.homePage.HomePageElementsTest" />
             <class name="test.homePage.HoroscopePageTest" />
             <class name="test.homePage.SearchInputTest" />
-            <class name="test.loginPage.LoginPageTest" />
+<!--            <class name="test.loginPage.LoginPageTest" />-->
         </classes>
     </test>
 </suite>

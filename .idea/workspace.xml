@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="">
+    <list default="true" id="eb081302-9cbc-4432-9de5-0a4e72dbe509" name="Changes" comment="Changed Files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/i/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/home/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/i/home/HomePageSidebar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/i/home/HomePageSidebar.java" afterDir="false" />
@@ -54,77 +52,7 @@
     &quot;last_directory_selection&quot;: &quot;/Users/anastasiia/A-Level/Module/src/test/java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.HoroscopePageTest">
-    <configuration name="HomePageElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.homePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.homePage" />
-      <option name="MAIN_CLASS_NAME" value="test.homePage.HomePageElementsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoroscopePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.homePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.homePage" />
-      <option name="MAIN_CLASS_NAME" value="test.homePage.HoroscopePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoroscopePageTest.chooseGeminiTitleZodiac" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.homePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.homePage" />
-      <option name="MAIN_CLASS_NAME" value="test.homePage.HoroscopePageTest" />
-      <option name="METHOD_NAME" value="chooseGeminiTitleZodiac" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.closeLoginForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.loginPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.loginPage" />
-      <option name="MAIN_CLASS_NAME" value="test.loginPage.LoginPageTest" />
-      <option name="METHOD_NAME" value="closeLoginForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/anastasiia/A-Level/Module/testngAll.xml">
     <configuration name="LoginPageTest.getToForgetPasswordPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Module" />
       <extension name="coverage">
@@ -143,13 +71,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginPageTest.getToRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.loginPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.loginPage" />
+      <option name="MAIN_CLASS_NAME" value="test.loginPage.LoginPageTest" />
+      <option name="METHOD_NAME" value="getToRegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInputTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.homePage" />
+      <option name="MAIN_CLASS_NAME" value="test.homePage.SearchInputTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInputTest.inputSearchAvailability" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.homePage" />
+      <option name="MAIN_CLASS_NAME" value="test.homePage.SearchInputTest" />
+      <option name="METHOD_NAME" value="inputSearchAvailability" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/anastasiia/A-Level/Module/testngAll.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Module" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngAll.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HoroscopePageTest" />
-        <item itemvalue="TestNG.HomePageElementsTest" />
-        <item itemvalue="TestNG.HoroscopePageTest.chooseGeminiTitleZodiac" />
-        <item itemvalue="TestNG.LoginPageTest.closeLoginForm" />
+        <item itemvalue="TestNG./Users/anastasiia/A-Level/Module/testngAll.xml" />
+        <item itemvalue="TestNG.LoginPageTest.getToRegistrationForm" />
         <item itemvalue="TestNG.LoginPageTest.getToForgetPasswordPage" />
+        <item itemvalue="TestNG.SearchInputTest" />
+        <item itemvalue="TestNG.SearchInputTest.inputSearchAvailability" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +153,23 @@
       <option name="presentableId" value="Default" />
       <updated>1691431612177</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed Files">
+      <created>1691945304432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691945304432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Files" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Module$HomePageElementsTest.ic" NAME="HomePageElementsTest Coverage Results" MODIFIED="1691956922702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.homePage.*</FILTER>
+    </SUITE>
   </component>
 </project>

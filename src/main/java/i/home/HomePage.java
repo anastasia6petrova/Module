@@ -8,16 +8,15 @@ import pages.BasePage;
 public class HomePage extends BasePage {
 
 
-    public HomePage(WebDriver driver) {
-        super(driver);
-    }
-
     private By logo = By.xpath("//input[@value = 'Знайти']");
     private By contactInfo = By.cssSelector(".copyright.clear");
     private By findButton = By.xpath("//input[@value = 'Знайти']");
     private By searchInput = By.cssSelector("#searchQ");
     private By logInButton = By.xpath("//a[text() = \"Вхід\"]");
 
+    public HomePage() {
+        super();
+    }
 
 
     public boolean isLogoDisplayed() {

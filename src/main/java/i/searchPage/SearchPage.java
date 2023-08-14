@@ -7,8 +7,8 @@ import pages.BasePage;
 
 public class SearchPage extends BasePage {
 
-    public SearchPage (WebDriver driver) {
-            super(driver);
+    public SearchPage () {
+            super();
         }
 
     private By searchBox = By.cssSelector(".gsc-resultsbox-visible");
